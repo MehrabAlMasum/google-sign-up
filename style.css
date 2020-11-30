@@ -1,0 +1,182 @@
+
+body, h1, h2, h3, h4, h5, h6, p, a, span{
+  font-family: 'Google Sans',arial,sans-serif;
+}
+.content-center{
+  width: 760px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 50px;
+  margin-bottom: 0;
+  border: 1px solid #ddd;
+  border-radius: 15px;
+ 
+}
+.bottom{
+  width: 760px;
+  margin: 10px auto;
+}
+.container{
+  width: 680px;
+  margin: 30px auto;
+}
+
+/* main css */
+
+.logo figure img{
+  width: 100px;
+  margin-top: 20px;
+
+}
+.logo h1{
+  font-size: 24px;
+  color: #202124;
+ 
+  padding-bottom: 0;
+  line-height: 32px;
+  margin: 0;
+  font-weight: 400;
+}
+
+/* righ side */
+.right-content{
+  margin-top: 100px;
+}
+.right-content .svg-img{}
+.right-content .svg-img figcaption h5{
+  font-size: 14px;
+  color: #202124;
+  line-height: 1.4286;
+  text-align: center;
+    
+}
+/* form */
+.form-div{}
+.form-div form{}
+
+ input[type="text"]{
+  width: 48%;
+ 
+  border-style: none;
+  outline: none;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  display: inline-block;
+  margin-top: 30px;
+  margin-right: 10px;
+  padding: 5px 10px;
+  font-size: 14px;
+  font-weight: 300;
+  margin-bottom: 20px;
+}
+input[type="text"]:nth-child(2){
+  margin-right: 0;
+}
+input[type="email"]{
+ 
+  border-style: none;
+  outline: none;
+  border: 1px solid #ddd;
+  padding: 5px 10px;
+  border-radius: 5px;
+  font-size: 15px;
+  display: block;
+  width: 100%;
+  
+}
+.gmail{
+  transform: translate(346px, -29px);
+    font-size: 14px;
+    display: inline-block;
+}
+h4{
+  margin-top: 10px;
+}
+h4 a{
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: 600;
+  display: inline-block;
+  margin-bottom: 27px;
+  /* margin-top: -6px; */
+  color: #1a73e8;
+}
+
+p{
+  font-size: 11px;
+    margin-top: 6px;
+    margin-bottom: -3px;
+}
+
+input[type="password"] {
+  border-style: none;
+  outline: none;
+  
+  border: 1px solid #ddd;
+  padding: 5px 10px;
+  box-sizing: border-box;
+  display: inline-block;
+  width: 38%;
+  font-size: 15px;
+  border-radius: 5px;
+  margin-right: 10px;
+}
+
+.form-div form input:focus{
+  border: 1px solid #1a73e8;
+}
+.view a{
+  font-size: 18px;
+  color: #202124;
+}
+/* */
+.h4-bottom{
+  display: inline-block;
+  
+}
+.h4-bottom a{
+ display: inline-block;
+  margin-top: 50px;
+  font-size: 15px;
+  font-weight: 300;
+}
+
+button {
+  float: right;
+  margin-top: 49px;
+  margin-right: 106px;
+  padding: 7px 24px;
+  border-style: none;
+  outline: none;
+  color: white;
+  background: #1a73e8;
+  border-radius: 5px;
+  font-size: 13px;
+}
+button:hover{
+  background:  #478de9;
+}
+
+
+select{
+  border-style: none;
+  outline: none;
+  font-size: 12px;
+  margin-left: 10px;
+}
+
+
+ul{
+  list-style: none;
+  text-align: right;
+}
+ul li{
+  display: inline-block;
+}
+ul li a{
+  text-decoration: none;
+  color: #757575;
+  font-size: 12px;
+  padding: 0 14px;
+  font-weight: 700;
+}
